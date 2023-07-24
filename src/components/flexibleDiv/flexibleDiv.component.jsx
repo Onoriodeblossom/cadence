@@ -11,12 +11,17 @@ export const FlexibleDiv = styled.div`
   justify-content: ${({ justifyContent }) =>
     justifyContent ? justifyContent : "space-between"};
   align-items: ${({ alignItems }) => (alignItems ? alignItems : "center")};
-  padding: ${({ paddingVertical }) =>
-      paddingVertical ? paddingVertical : "0"}
+  padding-bottom: ${({ paddingBottom }) =>
+  paddingBottom ? paddingBottom : "0"};
+
+      padding-top: ${({ paddingTop }) =>
+      paddingTop ? paddingTop : "0"}
     ${({ boxedLayout }) => (boxedLayout ? "3%" : "0")};
   flex-wrap: ${({ flexWrap }) => (flexWrap ? flexWrap : "wrap")};
   flex: ${({ flex }) => (flex ? flex : "")};
-  margin: ${({ margin }) => (margin ? margin : "0")};
+  margin-top: ${({ marginTop }) => (marginTop ? marginTop : "0")};
+
+
   gap: ${({ gap }) => (gap ? gap : "")};
   img {
     width: ${(props) => props.ImageWidth && props.ImageWidth};

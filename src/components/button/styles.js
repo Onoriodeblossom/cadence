@@ -15,11 +15,12 @@ export const ButtonStyles = styled.button`
 `;
 
 export const BtnText = styled.p`
-  padding: 0 0.5rem;
+  padding: 0 0.2rem;
   color: ${({ btnColor }) => (btnColor ? btnColor : "#fff")};
   text-transform: ${({ textTransform }) =>
     textTransform ? textTransform : "capitalize"};
   font-weight: ${({ fontWeight }) => (fontWeight ? fontWeight : "bold")};
   font-size: ${({ fontSize }) => (fontSize ? fontSize : "20px")};
-  font-family: 'Bilbo Swash Caps', cursive;
+
+  font-family: 'Hi Melody', cursive;
 `;

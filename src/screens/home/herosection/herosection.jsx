@@ -1,19 +1,18 @@
 import React from "react";
-import { Container } from "../../../components/container/container";
 import Logo from "../../../assets/Cadence  1.png";
 import {
   HeroSectionContainer,
   Image,
-  TextDiv,
   FacebookIconContainer,
   ButtonContainer,
+  ArtistImageContainer,
   ArtistImage
 } from "./styles";
 import { FlexibleDiv } from "../../../components/flexibleDiv/flexibleDiv.component";
 import { BiLogoFacebook } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
 import { Button } from "../../../components/button/button.component";
-import man from "../../../assets/Cadence  1.png"
+import { Text } from "../../../components/Text/styles";
 
 export const HeroSection = () => {
   const topArtist = [
@@ -38,39 +37,9 @@ export const HeroSection = () => {
     {
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
     },
-    {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
-    },
-    {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
-    },
-    {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
-    },
-    {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
-    },
-    {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
-    },
-    {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
-    },
-    {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
-    },
-    {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
-    },
-    {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
-    },
-    {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
-    },
-    {
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Z7HjOc0vh82r0MxZv5voYrUiCZptcXmwIQ&usqp=CAU"
-    },
+  
+  
+
 
 
  
@@ -79,7 +48,7 @@ export const HeroSection = () => {
   return (
     <HeroSectionContainer>
       <Image src={Logo} />
-      <TextDiv size={"30px"}>Hip hop forever</TextDiv>
+      <Text size={"70px"} color="#FFF">Hip hop forever</Text>
 
       <FlexibleDiv width={"70%"}>
         <FlexibleDiv width={"20%"} justifyContent="center">
@@ -102,13 +71,17 @@ export const HeroSection = () => {
           </Button>
         </ButtonContainer>
       </FlexibleDiv>
-      <FlexibleDiv>
+      <FlexibleDiv background="red" marginTop="200px" gap="40px" justifyContent="center" >
         {topArtist.map(({image}) => (
+          <ArtistImageContainer >
+            <ArtistImage src={image}  alt="images"/>
 
-          <ArtistImage src={image}  alt="images"/>
+          </ArtistImageContainer>
+
         )
         )}
       </FlexibleDiv>
+  
     </HeroSectionContainer>
   );
 };
