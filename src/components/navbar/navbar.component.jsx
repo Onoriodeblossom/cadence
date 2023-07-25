@@ -1,8 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { NavContainer, NavContainerWrapper,NavLinkCOntainer,LogoImage} from "./styles";
 import { LinkText } from "../route/styles";
-import { FlexibleDiv } from "../flexibleDiv/flexibleDiv.component";
 import Logo from "../../assets/Cadence  1.png"
 
 

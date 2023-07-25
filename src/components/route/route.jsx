@@ -9,8 +9,6 @@ import Artists from "../../screens/artists/artists.screen";
 import ContactUs from "../../screens/contactus/contactUs.screen";
 import Events from "../../screens/event/event.screen";
 import Musics from "../../screens/music/musics.screen";
-import {Outlet} from "react-router-dom";
-import { NavBar } from "../navbar/navbar.component";
 
 
  export const router = createBrowserRouter([
