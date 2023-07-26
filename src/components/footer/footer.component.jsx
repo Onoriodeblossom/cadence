@@ -9,15 +9,15 @@ export const Footer = () => {
     <FooterContainer >
         <FooterContainerWrapper>
 
-      <FlexibleDiv>
-      <FlexibleDiv width="40%">
+      <FlexibleDiv width="80%">
 
         <Text fontFamily={"'Hi Melody', cursive;"} color="#fff" size="24px" >Suscribe</Text>
+      <FlexibleDiv width="50%">
 
         <Input placeholder="Enter  your e-mail" />
       </FlexibleDiv>
-
-        <FlexibleDiv width="10%">
+  
+        <FlexibleDiv width="20%">
           <Button background={"black"} fontSize="24px">Submit</Button>
         </FlexibleDiv>
       </FlexibleDiv>
