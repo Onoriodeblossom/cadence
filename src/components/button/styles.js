@@ -15,7 +15,7 @@ export const ButtonStyles = styled.button`
 `;
 
 export const BtnText = styled.p`
-  padding: 0 0.2rem;
+  // padding: 0 0.2rem;
   color: ${({ btnColor }) => (btnColor ? btnColor : "#fff")};
   text-transform: ${({ textTransform }) =>
     textTransform ? textTransform : "capitalize"};

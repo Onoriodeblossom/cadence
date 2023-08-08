@@ -14,8 +14,8 @@ export const FlexibleDiv = styled.div`
   padding-bottom: ${({ paddingBottom }) =>
     paddingBottom ? paddingBottom : "0"};
 
-  // padding-top: ${({ paddingTop }) => (paddingTop ? paddingTop : "0")}
-  //   ${({ boxedLayout }) => (boxedLayout ? "3%" : "0")};
+   padding-top: ${({ paddingTop }) => (paddingTop ? paddingTop : "0")}
+    //  ${({ boxedLayout }) => (boxedLayout ? "3%" : "0")};
   flex-wrap: ${({ flexWrap }) => (flexWrap ? flexWrap : "wrap")};
   flex: ${({ flex }) => (flex ? flex : "")};
   margin-top: ${({ marginTop }) => (marginTop ? marginTop : "0")};
@@ -35,6 +35,8 @@ export const FlexibleDiv = styled.div`
 
   @media (max-width: 800px) {
     width: ${({ resWidth }) => (resWidth ? resWidth : "100%")};
+
+  margin-top: ${({ resMarginTop }) => (resMarginTop ? resMarginTop : "0")};
     // background: red;
     flex-direction: ${({ resFlexDirection }) =>
       resFlexDirection ? resFlexDirection : "column"};

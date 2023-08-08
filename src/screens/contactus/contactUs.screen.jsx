@@ -1,12 +1,16 @@
 import React from "react"
-import { ContactUsContainer } from "./styles"
+import { ContactUsContainer, ContactUsSectionContainer } from "./styles"
 
-import { NavBar } from "../../components/navbar/navbar.component";
+import { NavBar, ResponsiveNavBar } from "../../components/navbar/navbar.component";
 
 const ContactUs = () =>{
     return(
         <ContactUsContainer>
+            <ContactUsSectionContainer>
             <NavBar/>
+            <ResponsiveNavBar/>
+
+            </ContactUsSectionContainer>
             CONTACT US
 
         </ContactUsContainer>

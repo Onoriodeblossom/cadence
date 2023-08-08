@@ -1,12 +1,15 @@
 import React from "react";
-import { EventContainer } from "./styles";
+import { EventContainer, EventSectionContainer } from "./styles";
 
-import { NavBar } from "../../components/navbar/navbar.component";
+import { NavBar, ResponsiveNavBar } from "../../components/navbar/navbar.component";
 
 const Events = () =>{
     return(
         <EventContainer>
+            <EventSectionContainer>
             <NavBar/>
+<ResponsiveNavBar/>
+            </EventSectionContainer>
        EVENT     
         </EventContainer>
     )

@@ -30,11 +30,36 @@ width:95%;
     }
 `
 
-export const Divider = styled.div`
+export const Image = styled.img`
+width:20%;
+`
 
+export const Divider = styled.div`
+margin-top:10px;
+margin-bottom:30px;
 width:100%;
 height:2px;
 background:#fff
 
+@media (max-width: 800px) {
+   
+    display:none
+}
+
 `
+export const HorizontalDivider = styled.div`
+margin-top:10px;
+margin-bottom:30px;
+width:2px;
+height:290px;
+background:#fff;
+
+
+@media (max-width: 800px) {
+   
+    display:none
+}
+
+`
+
 

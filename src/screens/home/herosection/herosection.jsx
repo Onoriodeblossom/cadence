@@ -51,7 +51,7 @@ export const HeroSection = () => {
       <Text resSize={"35px"} size={"70px"} color="#FFF">Hip hop forever</Text>
 
       <FlexibleDiv width={"70%"} resWidth="90%" resFlexDirection="row" >
-        <FlexibleDiv width={"20%"} resWidth="26%" gap={"16px"} resFlexDirection="row" justifyContent="center">
+        <FlexibleDiv width={"20%"} resWidth="max-content" gap={"16px"} resFlexDirection="row" justifyContent="center">
           <FacebookIconContainer>
             <BiLogoFacebook size={26} />
           </FacebookIconContainer>

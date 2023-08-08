@@ -1,14 +1,18 @@
 import React from "react";
-import { AboutContainer } from "./styles";
+import { AboutContainer, AboutUsSectionContainer } from "./styles";
 
-import { NavBar } from "../../components/navbar/navbar.component";
+import { NavBar, ResponsiveNavBar } from "../../components/navbar/navbar.component";
 
 const About = () =>{
 
 
     return(
         <AboutContainer>
+            <AboutUsSectionContainer>
+
             <NavBar/>
+            <ResponsiveNavBar/>
+            </AboutUsSectionContainer>
 ABOUT
         </AboutContainer>
     )
