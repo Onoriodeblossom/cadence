@@ -23,6 +23,11 @@ border:0px;
 font-size:24px;
 padding-left:20px;
 font-family:'Hi Melody', cursive;
+
+@media (max-width: 800px) {
+   
+width:95%;
+    }
 `
 
 export const Divider = styled.div`

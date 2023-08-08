@@ -9,9 +9,9 @@ export const Footer = () => {
     <FooterContainer >
         <FooterContainerWrapper>
 
-      <FlexibleDiv width="80%">
+      <FlexibleDiv width="80%" resFlexDirection="row">
 
-        <Text fontFamily={"'Hi Melody', cursive;"} color="#fff" size="24px" >Suscribe</Text>
+        <Text fontFamily={"'Hi Melody', cursive;"} color="#fff" size="24px" resSize={""} >Suscribe</Text>
       <FlexibleDiv width="50%">
 
         <Input placeholder="Enter  your e-mail" />

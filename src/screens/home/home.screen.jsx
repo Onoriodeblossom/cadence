@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from "../../components/container/container";
-import { NavBar } from "../../components/navbar/navbar.component";
+import { NavBar, ResponsiveNavBar } from "../../components/navbar/navbar.component";
 import { HeroSection } from "./herosection/herosection";
 import { HeroSectionContainer } from "./styles";
 import { IntroSection } from "./intro/intro";
@@ -14,6 +14,7 @@ const Home = () =>{
         <Container flexDirection="column" background="#DBDBDB">
             <HeroSectionContainer flexDirection="column">
             <NavBar/>
+            <ResponsiveNavBar/>
             <HeroSection/>
 
 

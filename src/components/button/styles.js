@@ -23,4 +23,10 @@ export const BtnText = styled.p`
   font-size: ${({ fontSize }) => (fontSize ? fontSize : "20px")};
 
   font-family: 'Hi Melody', cursive;
+
+  @media (max-width: 1020px) {
+    font-size: ${({ resFontSize }) => (resFontSize ? resFontSize : "20px")};
+    
+    }
+
 `;

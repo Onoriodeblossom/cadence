@@ -48,10 +48,10 @@ export const HeroSection = () => {
   return (
     <HeroSectionContainer>
       <Image src={Logo} />
-      <Text size={"70px"} color="#FFF">Hip hop forever</Text>
+      <Text resSize={"35px"} size={"70px"} color="#FFF">Hip hop forever</Text>
 
-      <FlexibleDiv width={"70%"}>
-        <FlexibleDiv width={"20%"} justifyContent="center">
+      <FlexibleDiv width={"70%"} resWidth="90%" resFlexDirection="row" >
+        <FlexibleDiv width={"20%"} resWidth="26%" gap={"16px"} resFlexDirection="row" justifyContent="center">
           <FacebookIconContainer>
             <BiLogoFacebook size={26} />
           </FacebookIconContainer>
@@ -71,7 +71,7 @@ export const HeroSection = () => {
           </Button>
         </ButtonContainer>
       </FlexibleDiv>
-      <FlexibleDiv background="red" marginTop="200px" gap="40px" justifyContent="center" >
+      <FlexibleDiv  display="none" background="red" marginTop="200px" gap="40px" justifyContent="center" >
         {topArtist.map(({image}) => (
           <ArtistImageContainer >
             <ArtistImage src={image}  alt="images"/>

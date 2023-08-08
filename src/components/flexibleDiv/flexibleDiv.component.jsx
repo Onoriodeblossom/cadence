@@ -12,29 +12,30 @@ export const FlexibleDiv = styled.div`
     justifyContent ? justifyContent : "space-between"};
   align-items: ${({ alignItems }) => (alignItems ? alignItems : "center")};
   padding-bottom: ${({ paddingBottom }) =>
-  paddingBottom ? paddingBottom : "0"};
+    paddingBottom ? paddingBottom : "0"};
 
-      padding-top: ${({ paddingTop }) =>
-      paddingTop ? paddingTop : "0"}
-    ${({ boxedLayout }) => (boxedLayout ? "3%" : "0")};
+  // padding-top: ${({ paddingTop }) => (paddingTop ? paddingTop : "0")}
+  //   ${({ boxedLayout }) => (boxedLayout ? "3%" : "0")};
   flex-wrap: ${({ flexWrap }) => (flexWrap ? flexWrap : "wrap")};
   flex: ${({ flex }) => (flex ? flex : "")};
   margin-top: ${({ marginTop }) => (marginTop ? marginTop : "0")};
-
+  
 
   gap: ${({ gap }) => (gap ? gap : "")};
   img {
     width: ${(props) => props.ImageWidth && props.ImageWidth};
   }
+
   @media (max-width: 1020px) {
     padding: ${({ paddingVertical }) =>
-        paddingVertical ? paddingVertical : "1.6rem"}
-      ${({ boxedLayout }) => (boxedLayout ? "3%" : "0")};
+        paddingVertical ? paddingVertical : "0rem"}
+      ${({ boxedLayout }) => (boxedLayout ? "0%" : "0")};
     width: ${({ breakpointwidth }) => (breakpointwidth ? breakpointwidth : "")};
   }
 
   @media (max-width: 800px) {
     width: ${({ resWidth }) => (resWidth ? resWidth : "100%")};
+    // background: red;
     flex-direction: ${({ resFlexDirection }) =>
       resFlexDirection ? resFlexDirection : "column"};
     justify-content: ${({ resjustifyContent }) =>

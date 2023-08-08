@@ -6,17 +6,30 @@ export const HeroSectionContainer = styled(Container)`
 `;
 
 export const Image = styled.img`
-  width: 500px;
-  height: 300px;
+
+
+@media (max-width: 600px) {
+  width:80%
+  
+  };
 `;
 
 export const ButtonContainer = styled.div`
   width: 20%;
+  @media (max-width: 800px) {
+   width:auto;
+    
+    };
+
+
+@media (max-width: 1020px) {
+  // width:30%
+  
+  };
 `;
 
 export const FacebookIconContainer = styled.div`
   padding: 8px;
-  margin-right: 30px;
   border: 1px solid #fff;
   border-radius: 50%;
 `;

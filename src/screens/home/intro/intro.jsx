@@ -7,10 +7,10 @@ import { Text } from "../../../components/Text/styles";
 export const IntroSection = () => {
   return (
     <IntroSectionContainer>
-      <FlexibleDiv flexDirection="column" justifyContent="center">
-        <Text size="60px"> The New Cadence / Boys To Men Record</Text>
+      <FlexibleDiv resWidth={"100%"} flexDirection="column" justifyContent="center">
+        <Text size="60px" resSize="25px"> The New Cadence / Boys To Men Record</Text>
 
-        <Text size="40px">
+        <Text size="40px" resSize="20px">
           {" "}
           Newly founded by two young Nigerian hip-hop artistes, Emdrey and N9tro
           is a hip-hop branded music record based in Nigeria. The New Cadence is
