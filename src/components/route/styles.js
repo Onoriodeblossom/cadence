@@ -5,7 +5,8 @@ import { styled } from "styled-components";
 export const LinkText = styled(Link)`
 text-decoration: none;
 color:white;
-font-family: 'Roboto', sans-serif;
-font-size:20px
+font-size:14px;
+
+font-family: 'Manrope', sans-serif;
 
 `

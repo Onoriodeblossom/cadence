@@ -3,6 +3,9 @@ import { Container } from "../../../components/container/container";
 
 export const HeroSectionContainer = styled(Container)`
   flex-direction: column;
+  height:70vh;
+  margin-bottom:50px;
+  justify-content:space-between;
 `;
 
 export const Image = styled.img`
@@ -15,7 +18,7 @@ export const Image = styled.img`
 `;
 
 export const ButtonContainer = styled.div`
-  width: 20%;
+  width: 15%;
   @media (max-width: 800px) {
    width:auto;
     

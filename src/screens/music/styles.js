@@ -5,5 +5,5 @@ import { Container } from "../../components/container/container";
 export const MusicContainer = styled(Container)`
 
 flex-direction:column;
-background:orange;
+background:#000;
 `

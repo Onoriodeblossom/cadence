@@ -48,7 +48,7 @@ export const HeroSection = () => {
   return (
     <HeroSectionContainer>
       <Image src={Logo} />
-      <Text resSize={"35px"} size={"70px"} color="#FFF">Hip hop forever</Text>
+      <Text resSize={"35px"} size={"40px"} color="#FFF">Hip hop forever</Text>
 
       <FlexibleDiv width={"70%"} resWidth="90%" resFlexDirection="row" >
         <FlexibleDiv width={"20%"} resWidth="max-content" gap={"16px"} resFlexDirection="row" justifyContent="center">
@@ -65,7 +65,7 @@ export const HeroSection = () => {
           <Button
             background={"transparent"}
             border={"3px solid #fff"}
-            fontSize={"30px"}
+            // fontSize={"24px"}
           >
             Listen Now
           </Button>

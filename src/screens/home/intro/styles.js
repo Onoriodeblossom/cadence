@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 export const IntroSectionContainer = styled.div`
-width:90%;
+width:70%;
 
 
 `

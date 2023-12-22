@@ -3,14 +3,29 @@ import { Container } from "../../components/container/container";
 import { FlexibleDiv } from "../../components/flexibleDiv/flexibleDiv.component";
 import img from "../../assets/bg.jpeg";
 
-export const ContactUsContainer = styled(Container)`
+
+export const OurServiceContainer = styled(Container)`
 
 flex-direction:column;
-background:black;
+background:#000;
 
-`
+`  
 
-export const ContactUsSectionContainer = styled(FlexibleDiv)`
+
+export const Intro = styled.div`
+padding-top:150px;
+// height:90vh;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+// background:red;
+
+`;
+
+export const OurServiceSectionContainer = styled(FlexibleDiv)`
+ 
   
   display: flex;
   background-size: cover;
@@ -18,6 +33,7 @@ export const ContactUsSectionContainer = styled(FlexibleDiv)`
   flex-direction: column;
   justify-content: center;
 `;
+
 
 export const BodyContainer = styled.div`
 width:80%;
@@ -30,18 +46,6 @@ flex-direction:column;
 
 `;
 
-export const Intro = styled.div`
-padding-top:50px;
-// height:90vh;
-width:100%;
-display:flex;
-align-items:center;
-justify-content:center;
-flex-direction:column;
-// background:red;
-
-`;
-  
 export const Row = styled(FlexibleDiv)`
 
 height:300px;

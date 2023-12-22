@@ -19,6 +19,7 @@ export const FlexibleDiv = styled.div`
   flex-wrap: ${({ flexWrap }) => (flexWrap ? flexWrap : "wrap")};
   flex: ${({ flex }) => (flex ? flex : "")};
   margin-top: ${({ marginTop }) => (marginTop ? marginTop : "0")};
+  margin-Bottom: ${({ marginBottom }) => (marginBottom ? marginBottom : "0")};
   
 
   gap: ${({ gap }) => (gap ? gap : "")};

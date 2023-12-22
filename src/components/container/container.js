@@ -14,5 +14,6 @@ export const Container = styled.div`
     justifyContent ? justifyContent : "center"};
   align-items: ${({ alignItems }) => (alignItems ? alignItems : "center")};
   margin-top: ${({ marginTop }) => (marginTop ? marginTop : "0px")};
+  margin-bottom: ${({ marginBottom }) => (marginBottom ? marginBottom : "80px")};
   padding-top: ${({ paddingTop }) => (paddingTop ? paddingTop : "0px")};
 `;

@@ -11,7 +11,7 @@ import { Footer } from "../../components/footer/footer.component";
 const Home = () =>{
 
     return(
-        <Container flexDirection="column" background="#DBDBDB">
+        <Container flexDirection="column" background="#000" >
             <HeroSectionContainer flexDirection="column">
             <NavBar/>
             <ResponsiveNavBar/>
@@ -19,8 +19,8 @@ const Home = () =>{
 
 
             </HeroSectionContainer>
-            <IntroSection/>
-            <Footer/>
+            {/* <IntroSection/> */}
+            {/* <Footer/> */}
 
     
         </Container>

@@ -7,7 +7,7 @@ import img from "../../assets/bg.jpeg";
 export const ArtistContainer = styled(Container)`
 
 flex-direction:column;
-background:orange;
+background:#000;
 
 `  
 

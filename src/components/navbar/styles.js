@@ -10,8 +10,7 @@ margin:0;
 `
 
 export const NavContainerWrapper = styled(FlexibleDiv)`
-width:85%;
-
+width:70%;
 
 @media (max-width: 1020px) {
 display:none;
@@ -22,20 +21,39 @@ display:none;
 
 export const NavLinkCOntainer = styled(FlexibleDiv)`
 justify-content:space-evenly;
-width:60%;
+width:50%;
+
+
+`
+
+export const LogoContainer  = styled.div`
+display:flex;
+justify-content:center;
+align-items:center;
+
+
 
 `
 
 export const LogoImage = styled.img`
 width:150px;
 height:100px;
+// border-right:1px solid #f2f2f2;
 
 
 @media (max-width: 1020px) {
     display:none;
     
-    }
+}
 
+`
+
+
+export const Line = styled.div`
+margin-left:20px;
+height:60px;
+width:0.7px;
+background-color:#f2f2f2
 `
 
 
