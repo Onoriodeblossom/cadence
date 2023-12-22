@@ -7,10 +7,10 @@ import {
   Picture3,
   Section1,
   Section2,
-  Texts,
+  
 } from "./styles";
 
-import { Text } from "../../../components/Text/styles";
+// import { Text } from "../../../components/Text/styles";
 // import Pic1 from "../../../assets/em.jpg";
 // import Pic2 from "../../../assets/emm.jpg";
 import { FlexibleDiv } from "../../../components/flexibleDiv/flexibleDiv.component";

@@ -1,7 +1,4 @@
 import { styled,keyframes } from "styled-components";
-import { Container } from "../../../components/container/container";
-import { FlexibleDiv } from "../../../components/flexibleDiv/flexibleDiv.component";
-import img from "../../../assets/bg.jpeg";
 import { Text } from "../../../components/Text/styles";
 const MoveUpDown = keyframes  `
 

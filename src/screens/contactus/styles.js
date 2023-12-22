@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 import { Container } from "../../components/container/container";
 import { FlexibleDiv } from "../../components/flexibleDiv/flexibleDiv.component";
-import img from "../../assets/bg.jpeg";
+
 
 export const ContactUsContainer = styled(Container)`
 

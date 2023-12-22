@@ -9,7 +9,6 @@ import {
   Icon
 } from "./styles";
 
-import { Text } from "../../../components/Text/styles";
 import { FlexibleDiv } from "../../../components/flexibleDiv/flexibleDiv.component";
 
 const DoubleSectionContainer = ({
