@@ -10,6 +10,13 @@ export const AboutContainer = styled(Container)`
 flex-direction:column;
 background:#000;
 
+
+@media (max-width: 370px) {
+  width: ${({ resWidth }) => (resWidth ? resWidth : "100%")};
+  // background:yellow;
+  // display:none;
+}
+
 `;
 export const AboutUsSectionContainer = styled(FlexibleDiv)`
   background:black;
@@ -20,6 +27,12 @@ export const AboutUsSectionContainer = styled(FlexibleDiv)`
   align-content: center;
   flex-direction: column;
   justify-content: center;
+
+
+  @media (max-width: 300px) {
+    width: ${({ resWidth }) => (resWidth ? resWidth : "100%")};
+    background:yellow;
+  }
 `;
 
 export const BodyContainer = styled.div`

@@ -15,10 +15,12 @@ const MoveUpDown = keyframes  `
 export const Section1  = styled.div`
 width:40%;
 
-
+// background:red;
 
 // height:73vh;
-
+@media (max-width: 370px) {
+    width:80%;
+  }
 `;
 
 
@@ -27,10 +29,13 @@ width:40%;
 margin-top:40px;
 display:flex;
 flex-direction:column;
-
+// background:red;
 position:relative;
 
+@media (max-width: 370px) {
+    width:100%;
 
+  }
 
 
 `
@@ -43,9 +48,19 @@ border-radius:10px;
 height:118px;
 position:relative;
 
-right:-200px
+
+right:-200px;
+@media (max-width: 370px) {
 
 
+    // width:100px;
+    height:160px;
+        width:70%;
+        background:red;
+    
+        top:-0px;
+    right:40px
+      }
 
 `
 export const Picture2  = styled.div`
@@ -63,6 +78,11 @@ transition:4s ;
 // animation: ${MoveUpDown} 3s   infinite;
 
 
+@media (max-width: 370px) {
+    width:100%;
+  }
+
+
 
 
 `
@@ -74,8 +94,17 @@ border-radius:10px;
 
 position:relative;
 top:-110px;
-right:-100px
+right:-100px;
+@media (max-width: 370px) {
 
+
+// width:100px;
+height:160px;
+    width:70%;
+    background:red;
+    top:-120px;
+right:-100px
+  }
 
 
 `
@@ -98,7 +127,11 @@ background:gray;
 export const P  = styled(Text)`
 
 
-font-family:'Manrope', sans-serif
+font-family:'Manrope', sans-serif;
+
+
+
+
 
 
 `

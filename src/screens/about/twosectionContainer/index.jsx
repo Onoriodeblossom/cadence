@@ -48,10 +48,10 @@ const DoubleSectionContainer = ({
           {" "}
           {text1}
         </P>
-        <P size="48px" align="left" color="#495057">
+        <P size="48px" align="left" color="#495057"  resSize600="30px">
           {text2}
         </P>
-        <P size="20px" align="left" fontWeight="400">
+        <P size="20px" align="left" fontWeight="400" align360="center" resSize600={"18px"}>
           {text3}
         </P>
       </Section2>

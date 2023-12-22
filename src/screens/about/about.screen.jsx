@@ -30,11 +30,11 @@ const About = () => {
           marginTop={"50px"}
           marginBottom={"50px"}
         >
-          <Text fontFamily="'Manrope', sans-serif" size="40px" color="#b99b4b">
+          <Text fontFamily="'Manrope', sans-serif" size="40px" color="#b99b4b" resSize600="30px" >
             The Cadence Records
           </Text>
 
-          <Text fontFamily="'Manrope', sans-serif" align="left">
+          <Text fontFamily="'Manrope', sans-serif" align="left"   resSize600="18px">
             Cadence is an African leading entertainment company.
           </Text>
         </FlexibleDiv>
