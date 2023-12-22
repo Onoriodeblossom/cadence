@@ -3,6 +3,7 @@ import {
   AboutContainer,
   AboutUsSectionContainer,
   BodyContainer,
+  Intro,
 } from "./styles";
 
 import {
@@ -30,6 +31,8 @@ const About = () => {
           marginTop={"50px"}
           marginBottom={"50px"}
         >
+          <Intro>
+
           <Text fontFamily="'Manrope', sans-serif" size="40px" color="#b99b4b" resSize600="30px" >
             The Cadence Records
           </Text>
@@ -37,6 +40,7 @@ const About = () => {
           <Text fontFamily="'Manrope', sans-serif" align="left"   resSize600="18px">
             Cadence is an African leading entertainment company.
           </Text>
+          </Intro>
         </FlexibleDiv>
         <DoubleSectionContainer
           Pic1={image1}

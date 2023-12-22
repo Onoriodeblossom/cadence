@@ -34,6 +34,17 @@ export const AboutUsSectionContainer = styled(FlexibleDiv)`
     background:yellow;
   }
 `;
+export const Intro = styled.div`
+// padding-top:150px;
+height:40vh;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+// background:red;
+
+`;
 
 export const BodyContainer = styled.div`
 width:80%;
