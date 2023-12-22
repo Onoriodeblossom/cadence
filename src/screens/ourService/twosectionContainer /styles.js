@@ -1,13 +1,13 @@
 import { styled,keyframes } from "styled-components";
 import { Text } from "../../../components/Text/styles";
-const MoveUpDown = keyframes  `
+// const MoveUpDown = keyframes  `
 
-0% { height:379px; width: 320px;   transform: translateY(0); }
-100% { height: 379px; width: 320px; transform: translateY(3%)   
+// 0% { height:379px; width: 320px;   transform: translateY(0); }
+// 100% { height: 379px; width: 320px; transform: translateY(3%)   
   
-}
+// }
 
-`
+// `
 
 
 

@@ -3,8 +3,8 @@ import { Container } from "../../components/container/container";
 import { NavBar, ResponsiveNavBar } from "../../components/navbar/navbar.component";
 import { HeroSection } from "./herosection/herosection";
 import { HeroSectionContainer } from "./styles";
-import { IntroSection } from "./intro/intro";
-import { Footer } from "../../components/footer/footer.component";
+// import { IntroSection } from "./intro/intro";
+// import { Footer } from "../../components/footer/footer.component";
 
 
 
