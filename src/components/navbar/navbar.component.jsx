@@ -53,11 +53,13 @@ export const ResponsiveNavBar = () => {
       <ResponsiveNavBarNavLinkCOntainer showMenu={showMenu}>
         <AiOutlineClose size={30} color="white" onClick={handleMenuToggle} />
         <LinkText to="/">Home</LinkText>
-        <LinkText to="/artists">Artists</LinkText>
+        <LinkText to="/about">About Us</LinkText>
+        <LinkText to="/ourservice">Our Service</LinkText>
         <LinkText to="/musics">Musics</LinkText>
-        <LinkText to="/about">About</LinkText>
         <LinkText to="/contactus">Contact Us</LinkText>
-        <LinkText to="/events">Events</LinkText>
+        <LinkText to="/artists">Artists</LinkText>
+        <LinkText to="/events">Blog</LinkText>
+        <LinkText to="/events">Artist</LinkText>
       </ResponsiveNavBarNavLinkCOntainer>
     </ResponsiveNavBarNavContainer>
   );

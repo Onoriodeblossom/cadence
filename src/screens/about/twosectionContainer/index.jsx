@@ -44,7 +44,7 @@ const DoubleSectionContainer = ({
         </Picture3>
       </Section1>
       <Section2>
-        <P color="#ff9900" background="#a2812e" resSize600="16px">
+        <P color="#ff9900" background="#a2812e" align360="left" resSize600="16px">
           {" "}
           {text1}
         </P>
