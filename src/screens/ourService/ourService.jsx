@@ -1,7 +1,7 @@
 import React from "react";
 import {
-  ArtistContainer,
-  ArtistSectionContainer,
+  // ArtistContainer,
+  // ArtistSectionContainer,
   BodyContainer,
   Icon,
   Intro,
