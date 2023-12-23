@@ -79,7 +79,7 @@ justify-content: center;
 
 export const ResponsiveNavBarNavContainerWrapper = styled(FlexibleDiv)`
 width:95%;
-
+background:transparent;
 `
 
 export const ResponsiveNavBarNavLinkCOntainer = styled(FlexibleDiv)`

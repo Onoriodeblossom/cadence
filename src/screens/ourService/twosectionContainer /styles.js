@@ -19,6 +19,13 @@ width:40%;
 
 height:73vh;
 
+
+@media (min-width: 320px) {
+    width:90%;
+
+height:auto;
+  }
+
 `;
 
 
@@ -30,7 +37,11 @@ flex-direction:column;
 
 position:relative;
 
+@media (max-width: 320px) {
+    width:100%;
+    
 
+  }
 
 
 `
@@ -41,10 +52,12 @@ export const Picture1  = styled.div`
 width:400px;
 border-radius:10px;
 height:500px;
-// position:relative;
-background:red;
-// right:-290px
 
+@media (min-width: 320px) {
+    width:100%;
+    height:350px;
+
+  }
 
 
 `
@@ -55,6 +68,13 @@ export const Image = styled.img`
 width:100%;
 height:100%;
 border-radius:10px;
+
+@media (min-width: 320px) {
+    width:100%;
+
+
+
+  }
 
 
 `;
@@ -67,7 +87,8 @@ background:gray;
 export const P  = styled(Text)`
 
 
-font-family:'Manrope', sans-serif
+font-family:'Manrope', sans-serif;
+// background:red;
 
 
 `

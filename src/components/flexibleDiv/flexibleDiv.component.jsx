@@ -52,4 +52,10 @@ export const FlexibleDiv = styled.div`
         boxedLayout === true ? "5%" : boxedLayout === "remove" ? "" : "0"}`};
     flex-wrap: ${({ flexWrap }) => (flexWrap ? flexWrap : "wrap")};
   }
+
+  @media (max-width: 320px) {
+    flex-direction: ${({ resFlexDirection }) =>
+    resFlexDirection ? resFlexDirection : "column"};
+
+  }
 `;

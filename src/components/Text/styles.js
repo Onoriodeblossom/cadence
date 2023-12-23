@@ -11,7 +11,7 @@ export const Text = styled.p`
   background-color: ${({ background }) =>
     background ? background : "transparent"};
 
-  @media (min-width: 360px) {
+  @media (min-width: 320px) {
     font-size: ${({ resSize600 }) => (resSize600 ? resSize600 : "28px")};
     // color: ${({ color360 }) => (color360 ? color360 : "green")};
     text-align: ${({ align360 }) => (align360 ? align360 : "center")};

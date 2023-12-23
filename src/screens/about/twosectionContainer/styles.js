@@ -56,7 +56,7 @@ right:-200px;
     // width:100px;
     height:160px;
         width:70%;
-        background:red;
+        
     
         top:-0px;
     right:40px

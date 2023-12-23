@@ -57,7 +57,7 @@ const OurService = () => {
 
 
       
-        <Text size="60px" color="#b89a4a">
+        <Text size="60px" color="#b89a4a" resSize600={"30px"}>
           Our Service
         </Text>
 

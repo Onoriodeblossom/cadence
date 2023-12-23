@@ -31,7 +31,7 @@ export const AboutUsSectionContainer = styled(FlexibleDiv)`
 
   @media (max-width: 300px) {
     width: ${({ resWidth }) => (resWidth ? resWidth : "100%")};
-    background:yellow;
+  
   }
 `;
 export const Intro = styled.div`
@@ -42,7 +42,6 @@ display:flex;
 align-items:center;
 justify-content:center;
 flex-direction:column;
-// background:red;
 
 `;
 
