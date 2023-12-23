@@ -37,7 +37,7 @@ flex-direction:column;
 
 position:relative;
 
-@media (max-width: 320px) {
+@media (max-width: 660px) {
     width:100%;
     
 
@@ -59,6 +59,13 @@ height:500px;
 
   }
 
+  @media (max-width: 370px) {
+    width:100%;
+
+
+
+  }
+
 
 `
 
@@ -70,6 +77,13 @@ height:100%;
 border-radius:10px;
 
 @media (min-width: 320px) {
+    width:100%;
+
+
+
+  }
+
+  @media (max-width: 370px) {
     width:100%;
 
 

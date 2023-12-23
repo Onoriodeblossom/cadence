@@ -32,7 +32,7 @@ flex-direction:column;
 // background:red;
 position:relative;
 
-@media (max-width: 370px) {
+@media (max-width: 660px) {
     width:100%;
 
   }
@@ -50,7 +50,7 @@ position:relative;
 
 
 right:-200px;
-@media (max-width: 370px) {
+@media (max-width: 660px) {
 
 
     // width:100px;
@@ -78,7 +78,7 @@ transition:4s ;
 // animation: ${MoveUpDown} 3s   infinite;
 
 
-@media (max-width: 370px) {
+@media (max-width: 660px) {
     width:100%;
   }
 
@@ -95,7 +95,7 @@ border-radius:10px;
 position:relative;
 top:-110px;
 right:-100px;
-@media (max-width: 370px) {
+@media (max-width: 660px) {
 
 
 // width:100px;

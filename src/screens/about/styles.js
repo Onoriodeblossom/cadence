@@ -29,7 +29,7 @@ export const AboutUsSectionContainer = styled(FlexibleDiv)`
   justify-content: center;
 
 
-  @media (max-width: 300px) {
+  @media (max-width: 660px) {
     width: ${({ resWidth }) => (resWidth ? resWidth : "100%")};
   
   }
