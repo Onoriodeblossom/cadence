@@ -52,23 +52,19 @@ const OurService = () => {
         <ResponsiveNavBar />
       </OurServiceSectionContainer>
       <BodyContainer>
-
         <Intro>
+          <Text size="60px" color="#b89a4a" resSize600={"30px"}>
+            Our Service
+          </Text>
 
-
-      
-        <Text size="60px" color="#b89a4a" resSize600={"30px"}>
-          Our Service
-        </Text>
-
-        <Row>
-          {Service.map(({ icon, label }) => (
-            <FlexibleDiv flexDirection="column">
-              <Icon>{icon}</Icon>
-              <Text color="#495057">{label}</Text>
-            </FlexibleDiv>
-          ))}
-        </Row>
+          <Row>
+            {Service.map(({ icon, label }) => (
+              <FlexibleDiv flexDirection="column">
+                <Icon>{icon}</Icon>
+                <Text color="#495057"    size={"18px"} >{label}</Text>
+              </FlexibleDiv>
+            ))}
+          </Row>
         </Intro>
 
         <DoubleSectionContainer
